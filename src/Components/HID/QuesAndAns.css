@@ -1,0 +1,48 @@
+.question-tab{
+    margin: 4px 0;
+}
+.question{
+    display: flex;
+    height: 40px;
+    max-width: 500px;
+}
+.question > img {
+    padding: 10px 13px;
+    width: 15px;
+    height: 15px;
+}
+
+.question >span{
+    padding-top: 5px;
+    color: white;
+    height: 100%;
+}
+
+.answer{
+  display: grid;
+  grid-template-columns: 7% 90%; 
+  background-color: #636363;
+  max-width: 490px;
+  padding: 10px 5px;
+}
+.answer > span:first-child{
+
+    max-width: 18px;
+    margin-left: 10px;
+    color: white;
+}
+span.A{
+   
+    margin:0;
+    color: white;
+}
+.inactive.answer{
+    display: none;
+}
+.inactive{
+    background-color: #636363;
+}
+
+.active{
+    background-color: #4ac49a ;
+}

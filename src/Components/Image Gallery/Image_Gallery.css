@@ -1,0 +1,16 @@
+.Image_Gallery-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .Image-item {
+    display: flex;
+    margin: -2px;
+  }
+  
+  .Image-item img {
+    margin: 2px;
+  }
+  
+  

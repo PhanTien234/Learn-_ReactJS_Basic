@@ -1,0 +1,15 @@
+.sections{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;    
+    max-height: 800px;
+    margin-left: 3%;
+}
+@media screen and (max-width: 650px) {
+    .sections {
+      max-height: none;
+    }
+  }
+.document-gallery-container{
+    width: 60%;
+}

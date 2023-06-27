@@ -1,0 +1,17 @@
+.video-container{
+    position: relative;
+    padding: 0 2px;
+    min-width: 200px;
+}
+.play-item{
+    width: 37px;
+    position: absolute;
+    top: 35%;
+    left: 38%;
+    -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%);
+}
+.video-picture{
+    /* opacity: 1; */
+    filter: brightness(0.6)
+}

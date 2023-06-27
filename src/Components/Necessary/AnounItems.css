@@ -1,0 +1,72 @@
+.anounItem {
+    display: inline-block;
+    max-height: 120px;
+    margin-top: 1.5%;
+  }
+  
+h3{
+  margin: 0;
+  font-weight: 600;
+}
+  
+  .anounItem-container {
+    display: flex;
+    height: 120px;
+  }
+  
+  .anounItem-picture {
+    display: inline-block;
+    height: 120px;
+    width: 160px;
+    border-radius: 3px;
+  }
+  
+  .tab-picture > img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .anounItem-content {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding: 0 15px;
+  }
+  
+  .anounItem-summary {
+    margin: 0;
+    padding: 0;
+    min-width: 600px;
+    max-width: 636px;
+    overflow: hidden;
+  }
+  
+  .additional-info {
+    display: flex;
+    padding: 1% 0;
+    position: absolute;
+    bottom: -3px;
+    align-items: center;
+  }
+  
+  .additional-info > span {
+    background-color: #E4E6E8;
+    border-radius: 14px;
+    font-size: 13px;
+    padding: 4px 12px;
+    width: 145px;
+    margin: 0 20px;
+    text-align: center;
+    font-family: Segoe UI, Semibold;
+  }
+  
+  .calendar > span {
+    margin: 0 10px;
+  }
+  
+.calDate{
+  width: 14px;
+  height: 16px;
+  transform: translateY(1px);
+}
+  

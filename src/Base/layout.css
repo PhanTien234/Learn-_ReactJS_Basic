@@ -1,0 +1,32 @@
+.portal-homepage {
+    padding: 0px 43px;
+}
+
+.portal-homepage .wrap,
+.portal-homepage .header,
+.portal-homepage .content {
+    width: 100%;
+}
+
+.anounItem-title{
+    font-size: 16px;
+    font: Segeo UI,Semibold;
+}
+
+/* @media screen and (min-width:1366px){
+    .left{
+        flex-basis: 65%;
+    }
+
+    .right{
+        flex-basis: 25%;
+        max-width: 100%;
+    }
+
+    .content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 48px;
+    }
+} */
+

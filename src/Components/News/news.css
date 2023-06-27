@@ -1,0 +1,8 @@
+.news > h2{
+    margin-bottom: 0;
+    font-weight: 550;
+}
+
+.news{
+    width: 60%;
+}
