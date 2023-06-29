@@ -18,7 +18,7 @@ export default class Navigation extends React.Component {
         return (
             <div className="nav">
                 <div className="nav-logo">
-                    <img src={Image.logo} alt='logo' />
+                    <img src={Image.logo} alt='png' />
                 </div>
                 <div className="nav-items">
                     {
