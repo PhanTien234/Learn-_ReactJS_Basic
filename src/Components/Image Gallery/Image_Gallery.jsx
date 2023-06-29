@@ -27,12 +27,12 @@ export default class Image_Gallery extends React.Component{
   render(){
     return(
         <div className="Image_Gallery-container">
-            <h2>Image Gallery</h2>
+            <h2 className="title">Image Gallery</h2>
             <div className="Image-item">
                 {
                     this.state.imagelists.slice(0,this.state.isDisplayAll?this.state.imagelists.length:4).map((imageitem) => {  
                         return (
-                            <img src={imageitem} alt="Image" />
+                            <img src={imageitem} alt="png" />
                         )
                     })
                 }

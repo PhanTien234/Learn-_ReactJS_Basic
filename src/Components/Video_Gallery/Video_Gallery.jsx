@@ -26,7 +26,7 @@ export default class Video_Gallery extends React.Component{
     render(){
         return(
             <div className="video_gallery_container">
-                <h2>Video Gallery</h2>
+                <h2 className="title">Video Gallery</h2>
                 <div className="videos">
                     {
                     this.state.videoItems.slice(0,this.state.isDisplayAll?this.state.videoItems.length:4).map((video) => {  

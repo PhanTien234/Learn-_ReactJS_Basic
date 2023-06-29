@@ -16,7 +16,7 @@ export default class Question extends React.Component {
                         <span>{this.props.question}</span>
                     </div>
                     <div className="answer">
-                        <span>A:</span>
+                        <span>A: </span>
                         <span className="A">{this.props.answer}</span>
                     </div>
                 </div>                          
@@ -30,7 +30,7 @@ export default class Question extends React.Component {
                         <span>{this.props.question}</span>
                     </div>
                     <div className="answer inactive">
-                        <span>A:</span>
+                        <span>A: </span>
                         <p>{this.props.answer}</p>
                     </div>
                 </div>                          

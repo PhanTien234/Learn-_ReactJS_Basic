@@ -16,7 +16,7 @@ export default class DocumentItem extends React.Component {
     render() {
         return (
             <div className = "document-item">
-                <span className="icon"><img src={this.state.icon} alt="" /></span>
+                <span className="iconDocument"><img src={this.state.icon} alt="" /></span>
                 <span className="title-document">{this.props.document.title}</span>
             </div>                          
         )

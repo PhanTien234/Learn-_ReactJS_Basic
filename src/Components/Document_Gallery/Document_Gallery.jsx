@@ -15,7 +15,7 @@ export default class Document_Gallery extends React.Component {
     render() {
         return (
             <div className="document-gallery-container">
-                <h2>Document Gallery</h2>
+                <h2 className="title">Document Gallery</h2>
                 <div className = "sections">
                     {
                         this.state.sections.map((section) => {

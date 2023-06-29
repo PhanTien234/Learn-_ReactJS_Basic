@@ -16,7 +16,7 @@ export default class AnounItems extends React.Component {
                         <p className="anounItem-summary">{this.props.summary}</p>
                         <div className="additional-info">
                             <div className="calendar">
-                                <img className="calDate" src={Image.date} alt="error" />
+                                <img className="calDate" src={Image.date} alt="png" />
                                 <span>{this.props.date}</span>
                             </div>
                             {

@@ -3,8 +3,8 @@
 }
 .question{
     display: flex;
-    height: 40px;
-    max-width: 500px;
+    height: 30px;
+    max-width: 100%;
 }
 .question > img {
     padding: 10px 13px;
@@ -12,7 +12,10 @@
     height: 15px;
 }
 
-.question >span{
+.question > span{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     padding-top: 5px;
     color: white;
     height: 100%;

@@ -59,7 +59,7 @@ export default class Announcement extends React.Component {
     render() {
         return (
             <div className="announcements">
-                <h2>Announcement</h2>
+                <h2 className="title">Announcement</h2>
                     {
                         this.state.MenuAnnouncements.slice(0,this.state.isDisplayAll?this.state.MenuAnnouncements.length:4).map((announcement) => {
                             return (

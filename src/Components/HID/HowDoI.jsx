@@ -13,7 +13,7 @@ export default class Announcement extends React.Component {
             questions:[
                 {
                     question:"What is app blocking?",
-                    answer: "App blocking refers to the process of restricting or preventing access to certain applications on a device, typically done to manage screen time or increase productivity."
+                    answer:"App blocking refers to the process of restricting or preventing access to certain applications on a device, typically done to manage screen time or increase productivity."
                 },
                 {
                     question:"Why would someone want to use app blocking",
@@ -49,7 +49,7 @@ export default class Announcement extends React.Component {
     }
     QuestionClickHandler(num){
         this.setState((state)=>{
-            return {selectedIndex:state.selectedIndex==num?-1:num}
+            return {selectedIndex:state.selectedIndex===num?-1:num}
         })
     }
 
@@ -66,7 +66,7 @@ export default class Announcement extends React.Component {
     render() {
         return (
             <div className="FAQ-container">
-                <h2>How Do I</h2>
+                <h2 className="title">How Do I</h2>
                 <div className="search-box">
                     <img src={Image.search} alt="" />
                     <input type="text" value={this.state.searchString} onChange={(e)=>this.SearchChangeHandler(e)} placeholder="Find Questions"/>

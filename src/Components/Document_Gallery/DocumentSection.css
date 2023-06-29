@@ -3,3 +3,6 @@
     min-width: 384px;
     margin-top: 3%;
 }
+.document-gallery-container{
+    max-width: 800px;
+}

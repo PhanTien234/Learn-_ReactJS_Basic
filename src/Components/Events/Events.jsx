@@ -53,7 +53,7 @@ export default class Events extends React.Component {
     render() {
         return (
             <div className="event-container">
-                <h2>Events</h2>
+                <h2 className="title">Events</h2>
                 <div className = "events">
                     {
                         this.state.eventLists.slice(0,this.state.isDisplayAll?this.state.eventLists.length:4).map((event)=>{

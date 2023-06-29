@@ -3,7 +3,7 @@ import QuickLinkItem from "./QuickLinkItem";
 import Image from "../../Base/Image";
 import "./Quick_Link.css"
 
-export default class Quick_Link extends Component{
+export default class QuickLink extends Component{
     constructor(props){
         super(props)
         this.state =
@@ -52,8 +52,8 @@ export default class Quick_Link extends Component{
     }
     render(){
         return(
-            <div>
-                <h2>Quick Links</h2>
+            <div className="quicklink">
+                <h2 className="title">Quick Links</h2>
                 <div className="quicklink-container">
                     {this.state.quickLinkItems.map((item, index) =>
                         <QuickLinkItem key={index} image={item.image} title={item.title}/>

@@ -53,8 +53,7 @@ export default class News extends React.Component {
     render() {
         return (
             <div className="news">
-                <h2>News</h2>
-                <div className = "news-container">
+                <h2 className="title">News</h2>
                     {
                         this.state.news.slice(0,this.state.isDisplayAll?this.state.news.length:4).map((newItem) => {
                             return (
@@ -67,7 +66,6 @@ export default class News extends React.Component {
                             )
                         })
                     }
-                </div>
                 {
                     this.state.news.length>4&&
                     <div onClick={()=>{this.ViewMoreClickHandler()}}>

@@ -1,6 +1,9 @@
-.icon > img{
-    /* padding-top: 15px; */
-    margin-right: 20px;
+.iconDocument {
+    height: 22px;
+    width: 22px;
+    margin-right: 5px;
+    padding: 3px;
+    border: 1px solid #F7F7F7;
 }
 .title-document{
     vertical-align: top;
